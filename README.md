@@ -1,4 +1,9 @@
 ## Tabla de contenidos
+* [Calendario](#calendario)
+	* [Marzo](#marzo) 
+	* [Abril](#abril) 
+	* [Mayo](#mayo)
+	* [Junio](#junio)
 * [Programa](#programa)
     * [Equipo](#equipo)
     	* [Profesores](#profesores)
@@ -15,6 +20,58 @@
 * [Foro](#foro)
     * [Etiquetas](#etiquetas)
     * [Procedimiento](#procedimiento)
+
+# Calendario
+
+### Marzo
+| Día  | Contenido              	| Información adicional |
+|:-----|:---------------------------|:----------------------|
+| M 10 | OOP						|						|
+| J 12 | Herencia & multiherencia	|						|
+| M 17 | Polimorfismo & properties	|						|
+| J 19 | EDD				 		| Colas & Stacks		|
+| M 24 | EDD						| Nodos & Árboles		|
+| J 26 | Functional					| Iterables & Iteradores & Generadores	|
+| M 31 | Functional					| Map & Reduce & Filter		|
+
+### Abril
+| Día  | Contenido              	| Información adicional |
+|:-----|:---------------------------|:----------------------|
+| J 02 | Functional		| Decorators					|
+| M 07 | MetaClases					|						|
+| J 09 | MetaClases					|						|
+| L 13 | **I1**	: Hasta MetaClases	| 18:30 Salas **S1**:B17 , **S2**:B18	|
+| M 14 | Suspensión de Cátedra 		|						|
+| J 16 | Abstract Classes 		 	|						|
+| M 21 | Simulación 1				|						|
+| J 23 | Simulación con **SimPy**		| Documentación [aquí](https://simpy.readthedocs.org/en/latest/) |
+| M 28 | Manejo de Excepciones 		|						|
+| J 30 | Testing unitario 			| [Unittest](https://docs.python.org/3/library/unittest.html) viene por defecto con Python	|
+
+### Mayo
+| Día  | Contenido              	| Información adicional |
+|:-----|:---------------------------|:----------------------|
+| M 05 | Testing con **pytest**			| Documentación [aquí](https://pytest.org/latest/getting-started.html) |
+| J 07 | Interfaces Gráficas con **PyQt4**			| Parte 1 |
+| M 12 | Interfaces Gráficas con **PyQt4** + **Qt Designer**			| Parte 2 |
+| J 14 | I/O                        | Strings               |
+| M 19 | I/O                        | Bytes                 |
+| J 21 | **Feriado**                |                       |
+| M 26 | I/O                        | Serialización         |
+| J 28 | Threading                  | Creación y sincronización |
+
+### Junio
+| Día  | Contenido              	| Información adicional |
+|:-----|:---------------------------|:----------------------|
+| M 02 | **I2**			    | 18:30 y se suspende la cátedra. |
+| J 04 | Threading                  | Concurrencia          |
+| M 09 | Networking                 | Sockets               |
+| J 11 | Networking                 | Protocolos            |
+| M 16 | Webservices                | Recursos web          |
+| J 18 | Webservices                | REST API              |
+| W 24 | **Examen**					| 8:30 Salas **S1**:B24, **S2**: B25 |
+
+
 
 # Programa
 
@@ -61,15 +118,18 @@
 
 ## Descripcion del curso
 
-Este curso enseña técnicas para diseñar, implementar, ejecutar y evaluar herramientas de software que resuelven problemas algorítmicos a partir de especificaciones detalladas. En particular, el curso enseña construcciones avanzadas de programación orientada a objetos, estructuras de datos fundamentales, diseño básico de algoritmos y técnicas de análisis. 
+Este curso enseña técnicas para diseñar, implementar, ejecutar y evaluar herramientas de software que
+resuelven problemas algorítmicos a partir de especificaciones detalladas. En particular, el curso enseña
+construcciones avanzadas de programación orientada a objetos, estructuras de datos fundamentales,
+diseño básico de algoritmos y técnicas de análisis.
 
 ## Objetivos
 
 1. Descomponer problemas grandes para diseñar y estructurar sus soluciones.
 1. Crear diseños orientados a objetos para problemas simples y comunicar estos diseños a través de documentación externa y comentarios en el código.
 1. Aplicar conceptos de orientación a objetos (herencia, polimorfismo, interfaces) y estructuras de datos fundamentales (listas ligadas, stacks, colas, árboles binarios y tablas de hash), para diseñar y escribir programas complejos en el lenguaje de programación Python, pudiendo extender este conocimiento a distintos lenguajes.
-1. Usar herramientas de programación comunes (debuggers y sistemas de control de versiones); técnicas de programación (bibliotecas de programación orientada a objetos y pruebas unitarias); y un entorno de desarrollo de software para editar, compilar, y depurar programas.
-1. Generar software desde cero, con código de alto nivel, de fácil re-utilización, actualización y mantenimiento. Incluyendo interfaces gráficas significativas, totalmente funcionales.
+1. Usar herramientas de programación comunes (debuggers y sistemas de control de versiones); técnicas de programación (bibliotecas de programación orientada a objetos y pruebas unitarias); y un entorno de desarrollo de software para editar, compilar, y depurar programas.
+1. Generar software desde cero, con código de alto nivel, de fácil re­utilización, actualización y mantenimiento. Incluyendo interfaces gráficas significativas, totalmente funcionales.
 
 ## Contenidos
 
@@ -80,7 +140,7 @@ Este curso enseña técnicas para diseñar, implementar, ejecutar y evaluar herr
 	* Herencia múltiple
 	* Propiedades. 
 * Estructuras de Datos: 
-	* Àrboles
+	* Árboles
 	* Diccionarios
 	* Colas
 	* Stacks
@@ -96,10 +156,13 @@ Este curso enseña técnicas para diseñar, implementar, ejecutar y evaluar herr
 	* Filter
 	* Decoradores
 * Meta Clases:
+	* Comprender la lógica detrás de la construcción y creación de clases
 * Clases Abstractas:
+	* Herencia a partir de clases no instanciables
 * Simulación: 
 	* Introducción a la simulación y SimPy
-* Manejo de Excepciones
+* Manejo de Excepciones:
+	* ​Tipos de excepciones/errores y cómo controlarlos
 * Testing: 
 	* Tests unitarios en pytest
 * Interfaces Gráficas: 
@@ -112,7 +175,8 @@ Este curso enseña técnicas para diseñar, implementar, ejecutar y evaluar herr
 * Threading: 
 	* Creación y sincronización de threads
 	* Concurrencia.
-* Networking
+* Networking:
+	* ​Sockets, cliente, servidor
 * Webservices: 
 	* Expresiones regulares
 	* Uso de servicios REST
@@ -123,7 +187,7 @@ Este curso enseña técnicas para diseñar, implementar, ejecutar y evaluar herr
 	* Cátedra: 2
 	* Ayudantía/Laboratorio 1
 
-El curso se realiza utilizando metodologías de enseñanza teóricas-prácticas centradas en el alumno que permitan a los estudiantes desarrollar las competencias definidas en los objetivos del curso, tanto en cátedras como en ayudantías. 
+El curso se realiza utilizando metodologías de enseñanza teóricas-prácticas centradas en el alumno que permitan a los estudiantes desarrollar las competencias definidas en los objetivos del curso, tanto en cátedras como en ayudantías.
 
 Este curso está diseñado de forma tal que el alumno dedique al estudio personal un promedio de 6 hrs. a la semana.
 
@@ -158,20 +222,24 @@ La página de [Issues](https://github.com/IIC2233-2015-1/syllabus/issues) se uti
 
 ## [Etiquetas](https://github.com/IIC2233-2015-1/syllabus/labels)
 
-Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías predefinidas](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsquda de problemas similares. Una entrada puede tener múltiples etiquetas, asegúrate de marcar las necesarias.
+Dentro de Issues, [las entradas se pueden etiquetar dentro de ciertas categorías predefinidas](https://help.github.com/articles/applying-labels-to-issues-and-pull-requests/) para mantener el orden y facilitar la búsquda de problemas similares. Una entrada puede tener múltiples etiquetas. Los ayudantes nos encargaremos de ir etiquetando las preguntas en el foro.
 
 * [Ausencia de material prometido](https://github.com/IIC2233-2015-1/syllabus/labels/Ausencia%20de%20material%20prometido): para solicitar material que no haya sido subido al repositorio.
-* [Duda código](https://github.com/IIC2233-2015-1/syllabus/labels/Duda%20c%C3%B3digo): sobre métodos, clases, sintaxis, PEP8.
-* [Duda enunciado](https://github.com/IIC2233-2015-1/syllabus/labels/Duda%20enunciado): sobre el enunciado de la tarea.
-* [Duda interrogación](https://github.com/IIC2233-2015-1/syllabus/labels/Duda%20interrogaci%C3%B3n): sobre fechas, contenido, recorreción de interrogaciones.
-* [Duda materia](https://github.com/IIC2233-2015-1/syllabus/labels/Duda%20materia): sobre conceptos y/o temas vistos en clases o fuera de esta.
+* [Actividades](https://github.com/IIC2233-2015-1/syllabus/labels/Actividades): Relacionado con las actividades en clase.
+* [Código](https://github.com/IIC2233-2015-1/syllabus/labels/C%C3%B3digo): sobre métodos, clases, sintaxis, PEP8.
+* Tareas *n*: sobre el enunciado de la tarea número *n*.
+* [Interrogación](https://github.com/IIC2233-2015-1/syllabus/labels/Interrogaci%C3%B3n): sobre fechas, contenido, recorreción de interrogaciones.
+* [Materia](https://github.com/IIC2233-2015-1/syllabus/labels/Materia): sobre conceptos y/o temas vistos en clases o fuera de esta.
 * [Duplicada](https://github.com/IIC2233-2015-1/syllabus/labels/Duplicada): pregunta repetida, se hará referencia a la pregunta original. 
+* [Git](https://github.com/IIC2233-2015-1/syllabus/labels/Git): Preguntas relacionadas con `git`
 * [I'm a Teapot](https://github.com/IIC2233-2015-1/syllabus/labels/I%27m%20a%20Teapot): broma geek ( ͡° ͜ʖ ͡°)
 * [Inválida](https://github.com/IIC2233-2015-1/syllabus/labels/Inv%C3%A1lida): la pregunta no cumple los estándares o viola el procedimiento descrito abajo.
 * [Meta-pregunta](https://github.com/IIC2233-2015-1/syllabus/labels/Meta-pregunta): pregunta sobre cómo y qué preguntar.
 * [Tengo un error](https://github.com/IIC2233-2015-1/syllabus/labels/Tengo%20un%20error): para preguntar sobre errores o bugs en códigos. 
 
 ## Procedimiento
+
+> Tanto al publicar entradas como al comentar, se debe atenerse a las **normas del curso**, además debes utilizar **[Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)** cuando sea necesario. Por ejemplo, cuando se necesita mostrar código o mensajes de error.
 
 Antes de postear:
 * Buscar en internet hasta encontrar la solución.
@@ -180,9 +248,6 @@ Antes de postear:
 	* Si encuestra un post marcado como resueto, pero no te satisface la respuesta, puedes comentar la issue y **volver a abrirla**.
 * En caso de no encontrar un post que te sirva, lo creamos presionando **[New issue](https://github.com/IIC2233-2015-1/syllabus/issues/new)**.
 * Escribir una entrada **explicando bien el problema o pregunta**.
-* Asignar las etiquetas (labels) correspondientes, puedes dejarlas en blanco si ninguna es correspondida.
 * Publicar.
-
-> Tanto al publicar como comentar, se debe atenerse a las **normas del curso**, además debes utilizar [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code) cuando sea necesario. Por ejemplo, cuando se necesita mostrar código o mensajes de error.
 
 Una vez resuelto el problema, dar las **gracias** y **cerrar la issue**.
